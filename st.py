@@ -272,7 +272,7 @@ def main():
                     "explanation": ""
                 }
                 # Rerun the app to refresh the form
-                st.experimental_rerun()
+                st.rerun()
             else:
                 st.error("You can only add 6 questions.")
 
